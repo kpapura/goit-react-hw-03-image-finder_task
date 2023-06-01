@@ -9,12 +9,12 @@ class Searchbar extends Component {
     };
   }
 
-  handleSubmit = (e) => {
+  handleSubmit = e => {
     e.preventDefault();
     this.props.handleSearch(this.state.input);
   };
 
-  handleChange = (e) => {
+  handleChange = e => {
     this.setState({ input: e.target.value });
   };
 

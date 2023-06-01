@@ -1,5 +1,5 @@
-import { ImageGalleryItem} from "../ImageGalleryItem/ImageGalleryItem";
-import s from '../styles/styles.module.scss'
+import { ImageGalleryItem } from '../ImageGalleryItem/ImageGalleryItem';
+import s from '../styles/styles.module.scss';
 
 export const ImageGallery = ({ images, onImageClick }) => {
   return (

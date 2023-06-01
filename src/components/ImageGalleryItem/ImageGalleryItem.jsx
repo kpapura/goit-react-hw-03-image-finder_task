@@ -1,10 +1,14 @@
-import s from '../styles/styles.module.scss'
-
+import s from '../styles/styles.module.scss';
 
 export const ImageGalleryItem = ({ imageUrl, onClick }) => {
   return (
     <li className={s.imageGalleryItem}>
-      <img src={imageUrl} alt="" onClick={onClick} className={s.imageGalleryItemImage}/>
+      <img
+        src={imageUrl}
+        alt=""
+        onClick={onClick}
+        className={s.imageGalleryItemImage}
+      />
     </li>
   );
 };
